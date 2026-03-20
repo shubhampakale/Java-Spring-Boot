@@ -1,0 +1,13 @@
+### Hello
+GET http://localhost:8080/api/hello
+
+### Create task
+POST http://localhost:8080/api/tasks
+Content-Type: application/json
+
+{
+  "title": "Learn Spring Boot twice"
+}
+
+### List tasks
+GET http://localhost:8080/api/tasks
